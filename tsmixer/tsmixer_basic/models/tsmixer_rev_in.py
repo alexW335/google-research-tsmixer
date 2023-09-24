@@ -15,8 +15,8 @@
 
 """Implementation of TSMixer with Reversible Instance Normalization."""
 
-from models.Rev_IN import RevNorm
-from models.TSMixer import res_block
+from .rev_in import RevNorm
+from .tsmixer import res_block
 import tensorflow as tf
 from tensorflow.keras import layers
 
