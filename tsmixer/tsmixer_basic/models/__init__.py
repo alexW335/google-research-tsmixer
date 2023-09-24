@@ -15,7 +15,7 @@
 
 """Time Series Forecasting Models."""
 
-import models.cnn
-import models.full_linear
-import models.tsmixer
-import models.tsmixer_rev_in
+from . import cnn
+from . import full_linear
+from . import tsmixer
+from . import tsmixer_rev_in
